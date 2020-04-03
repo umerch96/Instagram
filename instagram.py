@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
     arugments = args()
     mode = arugments.mode
-    username = arugments.username
+    username = manalattiq
     passlist = arugments.passlist
     is_color = True if not arugments.color else False
     Engine(username, modes[mode], passlist, is_color).start()
